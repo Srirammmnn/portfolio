@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <script>
+    // Trigger the profile image fade-in effect
+    window.addEventListener("load", function () {
+      const profilePic = document.querySelector('.profile-pic');
+      profilePic.classList.add('fade-in');
+  
+      // Trigger animation for PNG images
+      const images = document.querySelectorAll('.animated-image');
+      images.forEach((img, index) => {
+        setTimeout(() => {
+          img.classList.add('animate-in');
+        }, index * 300);  // Stagger the animation (300ms delay between each)
+      });
+    });
+  </script>
+  
+  
+
+  <section id="home" class="section">
+    <div class="home-content">
+      <div class="profile-container">
+        <img src="photo.srrr.png" alt="Profile Photo" class="profile-pic" />
+
+  
+      <h1>Hi, I'm <span class="highlight">Sriram</span></h1>
+      <p><span class="typing"></span></p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+  
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p text-align="center"  style="font-family: 'Arial', sans-serif;">    Aspiring Web Developer    |   Coding Enthusiast    |   Opportunity Seeker <br> </p>
+                                                   <br><br>   <h>INTERESTS</h><br><br>
+    <p> I am a passionate and dedicated computer science student with a strong interest in web development, backend technologies, and data analysis. I enjoy coding and continuously improving my skills in HTML, CSS, JavaScript, React, Python, and backend frameworks like Node.js and DJANGO.</p>
+    <p> Also I'm actively seeking opportunities, internships, and mentorship to grow in the tech industry. Driven by curiosity and problem-solving, I embrace challenges that push me to think critically and build efficient solutions. I believe in teamwork, continuous learning, and adapting to new technologies. My portfolio reflects my dedication to creating impactful digital solutions. Let's connect and build something amazing together! </p>
+                                                     <br>
+    <p>I am a dedicated and ambitious software student with a strong passion for technology and coding. Currently, I am pursuing my studies in software development, constantly learning new programming languages, frameworks, and tools to expand my knowledge and improve my coding skills. I believe in the power of technology to solve real-world problems, and I am eager to be part of the innovation that drives change.</p>
+    <P>In addition to my academic pursuits, I am deeply interested in freelancing opportunities. I enjoy working on diverse projects that challenge my abilities and allow me to apply my skills in creative ways. Freelancing has taught me how to be adaptable, manage my time effectively, and communicate with clients to deliver high-quality results.</p>
+    </section>
+
+    <section id="resume" class="resume-section">
+      <a href="Sriram.Myresume.cv.pdf" class="sim-btn btn-hover-new" data-text="Download CV">
+        <span>Download CV</span>
+      </a>
+    </section>
+    
+
+    <section id="certifications" class="section">
+      <h2>Certifications</h2>
+      <div class="certification-container">
+        <div class="certification-card">
+          <img src="intro to data analysis.png" alt="Udemy Logo" class="cert-icon" />
+          <h3>Introduction to Data Analysis</h3>
+          <p><strong>Coursera</strong></p>
+          <p>Issued: feb 2024</p>
+        </div>
+    
+        <div class="certification-card">
+          <img src="AUTOMATION PNG.png" alt="Udemy Logo" class="cert-icon" />
+          <h3>Automation Techiques</Table></h3>
+          <p><strong>Coursera</strong></p>
+          <p>Issued: feb 2025</p>
+        </div>
+    
+        <div class="certification-card">
+          <img src="RPA.png" alt="Udemy Logo" class="cert-icon" />
+          <h3>RPA</h3>
+          <p><strong>Coursera</strong></p>
+          <p>Issued: jan 2025</p>
+        </div>
+    
+       
+        <!-- Add more certifications as needed -->
+      </div>
+    </section>
+    
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-step">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Master of Computer Applications</h3>
+            <p><strong>Kumaraguru College of Technology</strong></p>
+            <p>2024 - 2026</p>
+            <p>CGPA: 7.54/10</p>
+          </div>
+        </div>
+    
+        <div class="timeline-step">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Bachelor of Computer Applications</h3>
+            <p><strong>PSG College of Arts and Science</strong></p>
+            <p>2021 - 2024</p>
+            <p>CGPA: 7.3/10</p>
+          </div>
+        </div>
+    
+        <div class="timeline-step">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Higher Secondary Education</h3>
+            <p><strong>Sri Ramakrishna Secondary School</strong></p>
+            <p>2019 - 2021</p>
+            <p>Percentage: 91%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-bar-container">
+      <div class="skill-bar">
+        <span>HTML</span>
+        <div class="bar">
+          <div class="progress" style="--width: 95%; --progress-color: #00ff00;"></div>
+          <span class="percent">95%</span>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <span>CSS</span>
+        <div class="bar">
+          <div class="progress" style="--width: 90%; --progress-color: #ffcc00;"></div>
+          <span class="percent">90%</span>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <span>JavaScript</span>
+        <div class="bar">
+          <div class="progress" style="--width: 85%; --progress-color: #ff9900;"></div>
+          <span class="percent">75%</span>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <span>Python</span>
+        <div class="bar">
+          <div class="progress" style="--width: 88%; --progress-color: #00ffff;"></div>
+          <span class="percent">70%</span>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <span>Django</span>
+        <div class="bar">
+          <div class="progress" style="--width: 80%; --progress-color: #00b3b3;"></div>
+          <span class="percent">80%</span>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <span>SQL</span>
+        <div class="bar">
+          <div class="progress" style="--width: 75%; --progress-color: #ff6600;"></div>
+          <span class="percent">75%</span>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <span>Node.js</span>
+        <div class="bar">
+          <div class="progress" style="--width: 70%; --progress-color: #6699ff;"></div>
+          <span class="percent">70%</span>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <span>Basics of DSA</span>
+        <div class="bar">
+          <div class="progress" style="--width: 65%; --progress-color: #ff3333;"></div>
+          <span class="percent">65%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h2>JARVIS-AI voice assistant</h2>
+        <p>Jarvis is an AI-powered voice assistant built with Python that performs tasks like answering questions, opening apps, and providing real-time updates.
+           Integrates speech recognition and text-to-speech to create an interactive, hands-free personal assistant experience. 📊🚀</p>
+      </div>
+
+      <div class="project-card">
+        <h2>Web Scraper for Amazon</h2>
+        <p>A powerful web scraper built to extract real-time product data from Amazon, including price, ratings, and reviews.
+          Utilizes Playwright, Flask, and data analysis tools to track trends and support smarter buying decisions.</p>
+      </div>
+       
+      <div class="project-card">
+      <h2>VIRTCOM-Ecommerce</h2>
+					<p>A modern, user-friendly eCommerce website offering a seamless shopping experience with secure checkout.
+             Built for speed, responsiveness, and easy product management to boost online sales.</p>
+      </div>		
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="user_name" placeholder="Your Name" required />
+      <input type="email" name="user_email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <section id="contact-info" class="section contact-info">
+    <h2>Connect With Me</h2>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/sriramm04/" target="_blank">
+        <img src="icons8-linkedin-50.png" alt="LinkedIn" /> LinkedIn
+      </a>
+      <a href="https://github.com/Srirammmnn" target="_blank">
+        <img src="icons8-github-30.png" alt="GitHub" /> GitHub
+      </a>
+      <a href="tel:+911234567890">
+        <img src="icons8-phone-50.png" alt="Phone" /> +91 9345893491
+      </a>
+      <a href="mailto:youremail@example.com">
+        <img src="icons8-mail-50.png" alt="Email" /> sriramcr46@gmail.com
+      </a>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>© 2025 Sriram. All rights reserved.</p>
+  </footer>
+
+  <!-- EmailJS Library -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    // Initialize EmailJS
+    (function () {
+      emailjs.init("sKqnNoPJ9FgV4mFC3"); // 🔁 Replace with your Public Key
+    })();
+
+    // Send form data to EmailJS
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm("service_46", "template_41n51og", this).then(
+        function () {
+          document.getElementById("form-status").textContent = "✅ Message sent successfully!";
+        },
+        function (error) {
+          document.getElementById("form-status").textContent = "❌ Failed to send message. Try again.";
+          console.error("EmailJS error:", error);
+        }
+      );
+
+      this.reset(); // Reset form fields
+    });
+  </script>
+
+<script>
+  let lastScrollTop = 0;
+  const navbar = document.querySelector("nav");
+
+  window.addEventListener("scroll", function () {
+    let scrollTop = window.scrollY || document.documentElement.scrollTop;
+    
+    if (scrollTop > lastScrollTop) {
+      // Scrolling down → Fade out
+      navbar.style.opacity = "0";
+      navbar.style.pointerEvents = "none"; // Prevent interaction when hidden
+    } else {
+      // Scrolling up → Fade in
+      navbar.style.opacity = "1";
+      navbar.style.pointerEvents = "auto";
+    }
+
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+  });
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const typing = document.querySelector(".typing");
+    const phrases = ["a Web Developer.", "a Data Analyst.", "a Problem Solver."];
+    let index = 0;
+    let letterIndex = 0;
+    let isDeleting = false;
+
+    function type() {
+      const currentPhrase = phrases[index];
+      if (isDeleting) {
+        typing.textContent = currentPhrase.substring(0, letterIndex--);
+      } else {
+        typing.textContent = currentPhrase.substring(0, letterIndex++);
+      }
+
+      if (!isDeleting && letterIndex === currentPhrase.length) {
+        isDeleting = true;
+        setTimeout(type, 1000); // Pause before deleting
+      } else if (isDeleting && letterIndex === 0) {
+        isDeleting = false;
+        index = (index + 1) % phrases.length;
+        setTimeout(type, 200); // Pause before typing next phrase
+      } else {
+        setTimeout(type, isDeleting ? 50 : 100); // Typing speed
+      }
+    }
+
+    type();
+  });
+</script>
+
+
+  
+</body>
+</html>
